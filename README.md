@@ -29,11 +29,11 @@ Files
 
 - dna_check.sv - the DNA comparison module
 
-- Your top-level or FIFO module — instantiates dna_check and gates logic with dna_match
+- Your top-level or FIFO module - instantiates dna_check and gates logic with dna_match
 
 Quick start
 
-1. Add dna_check.v to your project
+1. Add dna_check.sv to your project
 
 Include the file in your Vivado sources.
 
