@@ -27,7 +27,7 @@ If match == 0, protected logic stays disabled.
 
 Files
 
-- dna_check.v — the DNA comparison module
+- dna_check.sv - the DNA comparison module
 
 - Your top-level or FIFO module — instantiates dna_check and gates logic with dna_match
 
