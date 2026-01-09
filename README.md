@@ -40,7 +40,7 @@ Include the file in your Vivado sources.
 2. Instantiate in your fifo module just before the tick64
 ```
 wire dna_match;
-wire [56:0] expected_dna = 57'h0DEADBEEFCAFE; // Example / fake DNA
+wire [56:0] expected_dna = 57'h0DEADBEEFCAFE; // Put your DMA cards DNA ID here as hex
 
 dna_check dna_check_inst (
     .clk(clk),
